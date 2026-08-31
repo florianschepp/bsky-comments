@@ -1,3 +1,5 @@
+
+
 # bsky-comments
 
 https://github.com/user-attachments/assets/4e649daa-670e-4f66-8397-04ef731c9cba
@@ -122,6 +124,7 @@ Since we wrap icons in specific classes, you can hide the default icon and use C
 | `service` | string | `public.api.bsky.app` | The PDS endpoint. Use this for self-hosted instances. |
 | `icon-like` | string | `❤️` | Custom HTML/Text for the Like icon. |
 | `icon-reply` | string | `💬` | Custom HTML/Text for the Reply icon. |
+| `depth` | string | `10` | Maximum reply depth to fetch (minimum `1`). |
 
 ## Styling Reference
 
